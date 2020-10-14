@@ -1,0 +1,3 @@
+IMAGE_FORMAT = '.jpg'
+IMAGES_FOLDER = './Photos/'
+OUTPUT_FORMAT = '.mp4'
