@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  project_one:
+    build: ./project
+    container_name: project
+    restart: always
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./project:/src/
+    environment:
+      - 'ENVIRONMENT=debug'
+    tty: true
